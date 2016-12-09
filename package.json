@@ -11,7 +11,6 @@
   "dependencies": {
     "firebase": "^3.6.2",
     "firebase-admin": "^4.0.3",
-    "node-fetch": "^1.6.3",
     "serialport": "^4.0.6"
   }
 }
