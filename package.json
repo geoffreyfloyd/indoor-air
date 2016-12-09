@@ -1,0 +1,20 @@
+{
+  "name": "indoor-air",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geoff Manning",
+  "license": "ISC",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    "firebase": "^3.6.2",
+    "firebase-admin": "^4.0.3",
+    "node-fetch": "^1.6.3",
+    "serialport": "^4.0.6"
+  }
+}
