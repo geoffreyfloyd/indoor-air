@@ -57,7 +57,7 @@ port.on('data', function (dataString) {
             h: Math.round((total.h / raw.length) * 100) / 100,
             t: Math.round((total.t / raw.length) * 100) / 100,
         };
-        indoorAirRef.child(lastMinute).set(avg);
+        indoorAirRef.child(lastMinute).set(avg).catch((err) => console.log('Firebase.Set Failed: ' + err));
         // Flush raw
         raw = [];
     }
